@@ -1,0 +1,86 @@
+*{
+    padding: 0%;
+    margin:0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.banner{
+    background: url(../images/image3.jpg)no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first{
+    width: 90%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.date{
+    width: fit-content;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(240, 248, 255,0.5);
+    border-radius: 10px;
+}
+.heading{
+    font-size: 40px;
+    padding: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    /* color: #fff;  */ 
+}
+.list{
+    border: 1px solid red;
+    width:90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.newTask{
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    background-color: rgba(255, 255, 255,0.8);
+    color:green;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+}
+.newTask:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    color: white;
+    background-color: gray;
+
+}
+.plus{
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    padding: 10px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+}
+.plus:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    color: white;
+    background-color: gray;
+}
+#check{
+    width:30px;
+    height:50px;
+}
+.strikeThrough{
+    text-decoration: line-through;
+}
